@@ -123,7 +123,7 @@ export default function ClientSearch({ onSelectCliente, onSugerirProductos }: Pr
             }}
             onFocus={() => setOpen(true)}
             placeholder="Busca por nombre, RUT o email..."
-            className="w-full pl-9 pr-4 py-2.5 text-sm border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full bg-white text-neutral-700 placeholder:text-neutral-500 pl-9 pr-4 py-2.5 text-sm border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-indigo-500"
           />
           {clienteSeleccionado && (
             <button
