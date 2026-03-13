@@ -113,6 +113,7 @@ export default function Sidebar() {
         )}
         <button
           onClick={() => setCollapsed(!collapsed)}
+          title={collapsed ? "Expandir menú" : "Contraer menú"}
           className="p-1 rounded hover:bg-gray-100 text-gray-400 hover:text-gray-600 transition-colors ml-auto"
         >
           {collapsed ? <ChevronsRight size={16} /> : <ChevronsLeft size={16} />}

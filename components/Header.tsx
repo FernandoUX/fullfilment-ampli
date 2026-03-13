@@ -55,13 +55,13 @@ export default function Header() {
 
       {/* Right icons */}
       <div className="flex items-center gap-1">
-        <button className="p-2 rounded-lg text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors">
+        <button title="Pantalla completa" className="p-2 rounded-lg text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors">
           <Maximize2 size={18} />
         </button>
-        <button className="p-2 rounded-lg text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors">
+        <button title="Notificaciones" className="p-2 rounded-lg text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors">
           <Bell size={18} />
         </button>
-        <button className="p-2 rounded-lg text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors">
+        <button title="Ayuda y soporte" className="p-2 rounded-lg text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors">
           <HelpCircle size={18} />
         </button>
 

@@ -18,12 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${geist.className} bg-gray-50 antialiased`}>
+      <body className={`${geist.className} antialiased`}>
         <div className="flex h-screen overflow-hidden">
           <Sidebar />
           <div className="flex flex-col flex-1 min-w-0 overflow-hidden">
             <Header />
-            <main className="flex-1 overflow-y-auto p-6">{children}</main>
+            <main className="flex-1 overflow-y-auto p-6 bg-neutral-100">{children}</main>
           </div>
         </div>
       </body>
